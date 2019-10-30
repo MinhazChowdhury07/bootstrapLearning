@@ -7,14 +7,14 @@ body{
 }
 
 
-h1{
+#h1{
 color: aqua;
 margin-top: 25vh;
 margin-left: 10vh;
 padding: 20px;
 text-align: center;
 }
-h2{
+#h2{
   padding: 20px;
   text-align: center;
   margin-top: 15px;
@@ -53,9 +53,9 @@ h2{
   background: LightSalmon;
 
 }
-img{
+/* img{
   width: 400;
-  height: 320px;
+  height: 300px; */
 
 }
 .para1{
