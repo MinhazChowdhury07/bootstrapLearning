@@ -11,6 +11,44 @@
     <title>bootstrap Learning</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">WebLearning</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Website</a>
+              <a class="dropdown-item" href="#">Blog site</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">e-commerce site</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">About Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
     <div class="container" id="main">
       <h1 class="display-2" id="h1">Welcome to the bootstrap</h1>
     </div>
@@ -99,11 +137,19 @@
           <label for="InputPassword1">Password</label>
           <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
         </div>
+        <div class="form-group">
+          <label for="controltextarea">Make Comment</label>
+          <textarea class="form-control" id="controltextarea" rows="5" placeholder="make your comments"></textarea>
+        </div>
         <div class="form-group form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="form-groud">
+          <label for="fileinput">Input File</label>
+          <input type="file" class="form-control-file" id="fileinput">
+        </div>
       </form>
 
     </div>
